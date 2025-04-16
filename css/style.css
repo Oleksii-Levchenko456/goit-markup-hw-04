@@ -207,7 +207,7 @@ a {
   letter-spacing: 0.02em;
 }
 .information-about-team {
-  padding: 32px 0;
+  padding: 32px 16px;
 }
 .header-our-team {
   margin: 0 auto 72px auto;
@@ -220,7 +220,6 @@ a {
 .list-item-our-team {
   border-radius: 0 0 4px 4px;
   width: 264px;
-  height: 380px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
@@ -246,6 +245,25 @@ a {
 .list-our-team {
   background: #f4f4fd;
 }
+.icons-messenger-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+
+  padding-top: 8px;
+}
+.icon-messenger {
+  fill: white;
+}
+.list-item-icon {
+  line-height: 0;
+  box-sizing: border-box;
+  padding: 12px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+}
+
 .section-four {
   padding: 120px 0;
 }
