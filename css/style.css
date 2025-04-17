@@ -110,15 +110,13 @@ p {
 .list-item-section-two {
   width: calc((100% - 72px) / 4);
 }
-.icons {
-  padding: 24px 100px;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  width: 264px;
-  height: 112px;
-}
 .section-two-paddings {
   padding: 120px 0;
+}
+.icons-above-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .hader-logo {
   padding: 24px 0;
