@@ -69,9 +69,10 @@ p {
   background-repeat: no-repeat;
   background-position: center;
 
-  max-width: 1440px;
+  /* max-width: 1440px; */
   background-color: #2e2f42;
   padding: 188px 0;
+  /* margin: 0 auto; */
 }
 .header-one {
   font-weight: 700;
@@ -117,6 +118,13 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
+
+  margin-bottom: 8px;
 }
 .hader-logo {
   padding: 24px 0;
@@ -211,7 +219,7 @@ a {
   letter-spacing: 0.02em;
 }
 .information-about-team {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 .header-our-team {
   margin: 0 auto 72px auto;
@@ -228,6 +236,7 @@ a {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
 }
+
 .header-tree {
   margin-bottom: 8px;
   font-weight: 500;
@@ -261,11 +270,19 @@ a {
   fill: white;
 }
 .list-item-icon {
-  line-height: 0;
+  height: 40px;
+  width: 40px;
+}
+.link-icon {
+  height: 100%;
+  width: 100%;
   box-sizing: border-box;
-  padding: 12px;
   background-color: #4d5ae5;
   border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .section-four {
