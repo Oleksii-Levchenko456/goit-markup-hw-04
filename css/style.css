@@ -63,8 +63,14 @@ p {
   gap: 40px;
 }
 .section-one {
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7)),
-    url("/images/background-image.jpg");
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/background-image.jpg);
+
+  /* background-image: linear-gradient(rgba(46, 47, 66, 0.7)),
+    url("/images/background-image.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
