@@ -403,3 +403,6 @@ a {
 .background-icon-footer:hover {
   background-color: #31d0aa;
 }
+.background-icon-footer:focus {
+  background-color: #31d0aa;
+}
