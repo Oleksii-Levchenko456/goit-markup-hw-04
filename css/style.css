@@ -400,3 +400,6 @@ a {
   align-items: center;
   gap: 16px;
 }
+.background-icon-footer:hover {
+  background-color: #31d0aa;
+}
